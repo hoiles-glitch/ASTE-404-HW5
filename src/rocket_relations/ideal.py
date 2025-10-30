@@ -46,7 +46,7 @@ def characteristic_velocity(gamma, R, T0):
 
     return c_star
 
-    def thrust_coefficient(gamma, pe_p0, pa_p0, Ae_Astar):
+def thrust_coefficient(gamma, pe_p0, pa_p0, Ae_Astar):
     """
     Calculate the ideal thrust coefficient (CF) for a rocket nozzle.
 
@@ -98,3 +98,4 @@ def characteristic_velocity(gamma, R, T0):
     return CF
 
     
+
